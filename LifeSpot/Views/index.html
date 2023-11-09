@@ -8,11 +8,13 @@
     <link href="../Static/CSS/index.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" defer src="../Static/JS/testing.js">
     </script>
-    <script type="text/javascript"  src="../Static/JS/index.js">
+    <script type="text/javascript" src="../Static/JS/index.js">
+    </script>   <script type="text/javascript" src="../Static/JS/index.js">
     </script>
+    <script type="text/javascript" src="../Static/JS/about.js"></script>
     <script type="text/javascript" defer>
         //// Проверка на возраст
-        //checkAge();
+       /* checkAge()*/
 
         // сохранение сессии
         handleSession()
@@ -21,20 +23,21 @@
         sessionLog();
 
         // функция для получения пользовательского ввода
-  
+        setTimeout();
+
     </script>
-      <header id="header-index">
-    <h1>LifeSpot - прямые трансляции с улиц</h1>
-    <p>Покажем, что происходит прямо сейчас</p>
-    <input type="text" oninput="
+    <header id="header-index">
+        <h1>LifeSpot - прямые трансляции с улиц</h1>
+        <p>Покажем, что происходит прямо сейчас</p>
+        <input type="text" oninput="
         // Функция объявлена через declaration
        const inputParseFunction = function(){
            return document.getElementsByTagName('input')[0].value.toLowerCase();
        }
        // Вызов (функция в аргумент передаётся без круглых скобок)
        filterContent( inputParseFunction )" size=50% />
-   
-     </header>
+
+    </header>
 </head>
 <body>
 
@@ -59,10 +62,11 @@
     <p>Связаться с нами: contact@lifespot.ru</p>
 </footer>
 <!--Сайд-бар страницы-->
-<aside id="sidebar">
+<<aside id="sidebar">
     <div class="navbar">
         <a href="/"><p>Все трансляции</p></a>
-        <a href="/"><p>О проекте</p></a>
+        <a href="/about"><p>О проекте</p></a>
+        <a href="/testing"><p>Тестирование</p></a>
     </div>
 </aside>
 
